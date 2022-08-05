@@ -33,5 +33,5 @@ async def end_message(message: types.Message):
         [types.InlineKeyboardButton(emoji.emojize('Список :page_with_curl:'), url=members_list_url)]
     ])
     await message.delete()
-    await message.answer(text=emoji.emojize(':pushpin:\nУчастники Финзабег-2.0'),
+    await message.answer(text=emoji.emojize(':pushpin:\nУчастники "Мой Проект"'),
                          reply_markup=inline_keyboard)
